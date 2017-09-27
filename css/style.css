@@ -1,0 +1,151 @@
+/* Author: Patrick Ndifon */
+
+/* General Styles */
+* {
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color:grey;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Helvetica', 'Calibri', sans-serif;
+    color:white;
+	
+	position: fixed !important
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	}
+.container {
+	 width:80%;
+	 margin:auto;
+	 overflow: hidden;
+}
+
+/* HEADER*/
+header {
+	background-color:red;
+	height: 15%;
+	color: #ffffff;
+	padding: 10px;
+	border-bottom: 5px dashed black;
+}
+
+header #branding {
+	position: relative;
+	float: left;
+	font-family: "Harlow Solid Italic", cursive;
+}
+
+   header img {
+	width: 88px;
+	height: 86px;
+}
+
+   header h1 {
+	display: inline;
+	position: absolute;
+	top: 27px;
+	left: 100px;
+}
+
+   header nav {
+	float: right;
+	margin-top: 35px;
+}
+
+   header li {
+	display: inline;
+	float: left;
+	padding: 0 20px 0 20px;
+}
+
+   header a {
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+}
+/* SHOWCASE*/
+#showcase{
+	height:65%;
+}
+#showcase .container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0;
+}
+#showcase img {
+	width:350px;
+	height:350px;
+	border-radius:100%;
+}
+#showcase .profession{
+	font-family: 'Helvetica', 'Calibri', san-serif;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	letter-spacing: 0.5px 
+}
+#showcase h2{
+	font-size: 2em;
+	color: #212121;
+
+}#showcase h1{
+	font-size: 2.5em;
+	line-height: 70px;
+}
+#showcase h3{
+	color: yellow;
+}
+#showcase p{
+	line-height: 30px;
+	font-size: 1.0em;
+	color: pink;
+}
+#showcase .links{
+	font-size: 20px;
+	color: blue;
+	font-weight: 700;
+	margin-top:30px;
+}
+#showcase .mail-links{
+	text-transform: uppercase;
+	font-size: 20px;
+	
+}
+#showcase .social-links img{
+	width: 50px;
+	height: 44px; 
+	border-radius: 0;
+	margin-right: 8px;
+}
+
+ /*footer*/
+  footer {
+	  text-align:center;
+	  color:white;
+	  font-size:30px;
+	  height:15%;
+	  font-weight:bold;
+	  background-color:red;
+  border-top: 5px dashed black;
+  padding: 10px;
+  }
+  .container marquee{
+	  height: 5%;
+	  padding: 10px;
+	  color: pink;
+	  
+  }
+  footer .container{
+	  margin-top: 15px;
+  }
+  
+  
